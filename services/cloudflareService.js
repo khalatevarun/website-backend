@@ -10,6 +10,9 @@ async function purgeCache(files) {
     {
       "X-Auth-Key": config.get("cloudflare.CLOUDFLARE_X_AUTH_KEY"),
       "X-Auth-Email": config.get("cloudflare.CLOUDFLARE_X_AUTH_EMAIL"),
+
+
+
     }
   );
 
