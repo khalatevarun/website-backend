@@ -31,6 +31,7 @@ const updateUser = async (req, res, next) => {
     next();
   } catch (error) {
     logger.error(`Error validating updateUser payload : ${error}`);
+
     res.boom.badRequest(error.details[0].message);
   }
 };
