@@ -29,6 +29,7 @@ const updateUser = async (req, res, next) => {
   try {
     await schema.validateAsync(req.body);
     next();
+
   } catch (error) {
     logger.error(`Error validating updateUser payload : ${error}`);
 
