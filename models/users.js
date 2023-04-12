@@ -206,6 +206,7 @@ const fetchFilteredUsers = async (usernames = []) => {
           tokens: undefined,
           chaincode: undefined,
         });
+
       });
     });
 
