@@ -130,6 +130,7 @@ function getPaginationLink(query, cursor, documentId) {
  */
 function getUsernamesFromPRs(allPRs) {
   const uniqueUsernamesSet = new Set();
+
   const usernames = [];
 
   allPRs?.forEach((pr) => {
