@@ -61,6 +61,7 @@ const getUserById = async (req, res) => {
 /**
  * Fetches the data about our users
  *
+ *
  * @param req {Object} - Express request object
  * @param res {Object} - Express response object
  */
